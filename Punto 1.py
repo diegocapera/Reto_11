@@ -2,7 +2,6 @@
 # Pedir la dimensión de las matrices al usuario
 fila = int(input("Ingrese el número de filas para las matrices: "))
 columna = int(input("Ingrese el número de columnas para las matrices: "))
-
 # Crear la primera matriz
 print("Ingrese los valores de la primera matriz:")
 matriz1 = []
@@ -11,7 +10,6 @@ for i in range(fila):
     for j in range(columna):
         fila_matriz1.append(int(input()))
     matriz1.append(fila_matriz1)
-
 # Crear la segunda matriz
 print("Ingrese los valores de la segunda matriz:")
 matriz2 = []
@@ -20,7 +18,6 @@ for i in range(fila):
     for j in range(columna):
         fila_matriz2.append(int(input()))
     matriz2.append(fila_matriz2)
-
 # Sumar o restar las matrices
 operacion = input("¿Desea sumar o restar las matrices? ")
 if operacion == "sumar":
