@@ -2,6 +2,10 @@
 
 En este reto use mayormente ciclos for y condicionales ya que son mas practicos a la hora de hacer operaciones con matrices ya que estas tienen ciertas restricciones como lo son la multiplicacion entre matrices.
 
+Meme sobre el nombre del equipo (espero que el profe haya jugado Halo)
+![image](https://github.com/diegocapera/Reto_11/assets/124608110/ffd83907-8937-4f77-bd6d-a44b80cbb38f)
+
+
 ## Punto 1
 
 Desarrolle un programa que permita realizar la suma/resta de matrices. El programa debe validar las condiciones necesarias para ejecutar la operación.
