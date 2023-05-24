@@ -94,7 +94,7 @@ else:
 
 Desarrolle un programa que permita obtener la matriz transpuesta de una matriz ingresada. El programa debe validar las condiciones necesarias para ejecutar la operación.
 
-```Pynthon
+```Python
 # Punto 3
 # Pedir al usuario que ingrese el numero de filas y columnas de la matriz
 filas = int(input("Ingrese el numero de filas de la matriz: "))
