@@ -1,4 +1,4 @@
-#Punto 1
+# Punto 1
 # Pedir la dimensión de las matrices al usuario
 fila = int(input("Ingrese el número de filas para las matrices: "))
 columna = int(input("Ingrese el número de columnas para las matrices: "))
