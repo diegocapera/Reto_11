@@ -1,8 +1,8 @@
 # Punto 5
-# Pedir al usuario el número de filas y columnas de la matriz
-num_filas = int(input("Ingrese el número de filas: "))
-num_columnas = int(input("Ingrese el número de columnas: "))
-# Crear la matriz vacía
+# Pedir al usuario el numero de filas y columnas de la matriz
+num_filas = int(input("Ingrese el numero de filas: "))
+num_columnas = int(input("Ingrese el numero de columnas: "))
+# Crear la matriz vacia
 matriz = []
 # Pedir al usuario los valores de la matriz
 for i in range(num_filas):
@@ -15,11 +15,11 @@ for i in range(num_filas):
 print("Matriz ingresada:")
 for fila in matriz:
     print(fila)
-# Pedir al usuario el número de fila a sumar
-num_fila_sumar = int(input("Ingrese el número de fila que desea sumar: "))
-# Verificar que el número de fila ingresado sea válido
+# Pedir al usuario el numero de fila a sumar
+num_fila_sumar = int(input("Ingrese el nmero de fila que desea sumar: "))
+# Verificar que el numero de fila ingresado sea valido
 if num_fila_sumar > num_filas or num_fila_sumar < 1:
-    print("Número de fila inválido.")
+    print("Numero de fila invalido.")
 else:
     # Sumar los elementos de la fila seleccionada
     suma = sum(matriz[num_fila_sumar-1])
