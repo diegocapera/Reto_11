@@ -1,9 +1,9 @@
 # Punto 2
-# Pedimos al usuario el número de filas y columnas de ambas matrices
-fila_matriz1 = int(input("Ingrese el número de filas de la matriz 1: "))
-columna_matriz1 = int(input("Ingrese el número de columnas de la matriz 1: "))
-fila_matriz2 = int(input("Ingrese el número de filas de la matriz 2: "))
-columna_matriz2 = int(input("Ingrese el número de columnas de la matriz 2: "))
+# Pedimos al usuario el numero de filas y columnas de ambas matrices
+fila_matriz1 = int(input("Ingrese el numero de filas de la matriz 1: "))
+columna_matriz1 = int(input("Ingrese el numero de columnas de la matriz 1: "))
+fila_matriz2 = int(input("Ingrese el numero de filas de la matriz 2: "))
+columna_matriz2 = int(input("Ingrese el numero de columnas de la matriz 2: "))
 # Verificamos si las matrices se pueden multiplicar
 if columna_matriz1 != fila_matriz2:
     print("Error: las matrices no se pueden multiplicar")
