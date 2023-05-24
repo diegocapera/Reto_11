@@ -1,7 +1,7 @@
 # Punto 3
-# Pedir al usuario que ingrese el número de filas y columnas de la matriz
-filas = int(input("Ingrese el número de filas de la matriz: "))
-columnas = int(input("Ingrese el número de columnas de la matriz: "))
+# Pedir al usuario que ingrese el numero de filas y columnas de la matriz
+filas = int(input("Ingrese el numero de filas de la matriz: "))
+columnas = int(input("Ingrese el numero de columnas de la matriz: "))
 # Inicializar la matriz con ceros
 matriz = []
 for i in range(filas):
