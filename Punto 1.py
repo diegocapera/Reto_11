@@ -1,7 +1,7 @@
 # Punto 1
-# Pedir la dimensión de las matrices al usuario
-fila = int(input("Ingrese el número de filas para las matrices: "))
-columna = int(input("Ingrese el número de columnas para las matrices: "))
+# Pedir la dimension de las matrices al usuario
+fila = int(input("Ingrese el numero de filas para las matrices: "))
+columna = int(input("Ingrese el numero de columnas para las matrices: "))
 # Crear la primera matriz
 print("Ingrese los valores de la primera matriz:")
 matriz1 = []
@@ -41,4 +41,4 @@ elif operacion == "restar":
     for i in range(fila):
         print(resultado[i])
 else:
-    print("Operación no válida. Por favor, ingrese 'sumar' o 'restar'.")
+    print("Operacion no valida. Por favor, ingrese 'sumar' o 'restar'.")
